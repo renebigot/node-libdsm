@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/renebigot/node-libdsm/issues"
   },
-  "homepage": "https://github.com/renebigot/node-libdsm.git",
+  "homepage": "https://github.com/renebigot/node-libdsm",
   "dependencies": {
     "ffi": "^2.3.0",
     "nt-status": "^1.0.0",
