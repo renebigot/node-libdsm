@@ -153,7 +153,7 @@ share.removeDirectory('new-directory')
 Copy a local file to the remote host.
 
 ```javascript
-copyLocalFileToRemote('in.txt', 'folder/out.txt')
+share.copyLocalFileToRemote('in.txt', 'folder/out.txt')
 ```
 
 ### copyRemoteFileToRemote
