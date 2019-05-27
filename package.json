@@ -1,13 +1,21 @@
 {
   "name": "libdsm",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A nodejs binding library for libdsm",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renebigot/node-libdsm.git"
+  },
   "author": "Rene BIGOT",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renebigot/node-libdsm/issues"
+  },
+  "homepage": "https://github.com/renebigot/node-libdsm",
   "dependencies": {
     "ffi": "^2.3.0",
     "nt-status": "^1.0.0",
