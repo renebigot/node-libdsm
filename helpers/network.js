@@ -1,5 +1,4 @@
 const dns = require('dns')
-const NetbiosNs = require('../lib/netbios-ns')
 
 module.exports = {
   inetAton (address) {
@@ -25,9 +24,5 @@ module.exports = {
         }
       })
     })
-  },
-
-  netbiosResolve (name) {
-    return NetbiosNs.resolve(name)
   }
 }
