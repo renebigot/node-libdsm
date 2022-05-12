@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-const {platform, arch} = process
+const { platform, arch } = process
 const networkHelpers = require('./network')
 
 module.exports = {
@@ -12,10 +12,13 @@ module.exports = {
     if (fs.existsSync(libPath)) {
       switch (platform) {
         case 'darwin':
-          libPath += `/libdsm.3.dylib`
+          libPath += '/libdsm.3.dylib'
           break
         case 'win32':
-          libPath += `/cygdsm-3.dll`
+          libPath += '/cygdsm-3.dll'
+          break
+        case 'linux':
+          libPath += '/libdsm.so.3.1.0'
           break
       }
     }
