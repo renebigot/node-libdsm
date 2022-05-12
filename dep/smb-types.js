@@ -1,5 +1,5 @@
-const ref = require('ref')
-const ArrayType = require('ref-array')
+const ref = require('ref-napi')
+const ArrayType = require('ref-array-di')(ref)
 
 const bufferRef = ref.refType(ref.types.void)
 const smbFd = ref.types.uint32
